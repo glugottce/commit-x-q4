@@ -30,6 +30,8 @@ We can place cow 1 at position 6, cow 2 at position 9, cow 3 at position 11 andâ
 ```
 3
 ```
+#### Explaination: 
+We can place cow 1 at position 1, cow 2 at position 4, cow 3 at position 8. So, the maximum possible minimum distance between two cows is 3.
 
 ### Test Case 3
 #### Input
