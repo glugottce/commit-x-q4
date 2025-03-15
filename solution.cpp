@@ -41,17 +41,16 @@ int aggressiveCows(vector<int>& stalls, int k) {
 
 int main() {
     int n, k;
-    cout << "Enter number of stalls and cows: ";
+    
     cin >> n >> k;
     
     vector<int> stalls(n);
-    cout << "Enter stall positions: ";
     for (int i = 0; i < n; i++) {
         cin >> stalls[i];
     }
 
     int maxMinDist = aggressiveCows(stalls, k);
-    cout << "Maximum possible minimum distance: " << maxMinDist << endl;
+    cout  << maxMinDist << endl;
 
     return 0;
 }
